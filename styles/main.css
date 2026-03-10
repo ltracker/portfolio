@@ -1,0 +1,45 @@
+/* Initialisation des marges etc.. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: darkcyan;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Text du logo / texte */
+header .logo a {
+    all: unset;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 24px;
+
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+/* Nav bar liens cliquables ! :) */
+header nav ul li a {
+    text-decoration: none;
+    all: unset;
+    transition: color 0.3s;
+}
+
+/* Hover de la nav bar */
+header nav ul li a:hover {
+    background-color: aliceblue;
+    color: black;
+}
