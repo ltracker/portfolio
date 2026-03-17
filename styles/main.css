@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
 
 header {
     display: flex;
@@ -42,4 +48,15 @@ header nav ul li a {
 header nav ul li a:hover {
     background-color: aliceblue;
     color: black;
+}
+
+
+main {
+    flex: 1;
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    text-align: center;
+
 }
